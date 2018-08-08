@@ -1,1 +1,1 @@
-This docker image contains samtools, htslib, and tabix, and is intended for use in cwl workflows.
+This docker image contains samtools, htslib, and tabix, and is intended for use in cwl workflows. For compatibility with certain workflows as of this commit, htslib 1.3.2 is explicitly installed for use, since samtools 1.3.1 does not install that version. Due to this version mismatch, versioning for this docker image will start at v1.0.0
